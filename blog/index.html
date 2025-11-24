@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | Sirwagya</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="icon" href="../assets/logo.svg" type="image/svg+xml" />
+    <style>
+      .blog-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 8rem 2rem;
+      }
+      .blog-post {
+        border-bottom: var(--border-thick);
+        padding: 3rem 0;
+        transition: background 0.3s;
+      }
+      .blog-post:hover {
+        background: #1a1a1a;
+      }
+      .post-date {
+        font-size: 0.9rem;
+        opacity: 0.6;
+        margin-bottom: 0.5rem;
+      }
+      .post-title {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+      .read-more {
+        display: inline-block;
+        margin-top: 1rem;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="cursor" class="cursor"></div>
+
+    <nav class="brutalist-nav">
+      <div class="nav-logo">S</div>
+      <div class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="../index.html#work">Work</a>
+        <a href="#">Blog</a>
+      </div>
+    </nav>
+
+    <main>
+      <div class="blog-container">
+        <h1 class="section-title">THOUGHTS</h1>
+
+        <article class="blog-post">
+          <div class="post-date">Nov 24, 2025</div>
+          <h2 class="post-title">Why Brutalism?</h2>
+          <p>
+            Because clean and minimal is boring. Here is why I chose to scream
+            visually...
+          </p>
+          <a href="#" class="read-more">Read (Coming Soon)</a>
+        </article>
+
+        <article class="blog-post">
+          <div class="post-date">Oct 10, 2025</div>
+          <h2 class="post-title">Java vs JavaScript</h2>
+          <p>
+            One has class, the other has... undefined behavior. My take on
+            learning both.
+          </p>
+          <a href="#" class="read-more">Read (Coming Soon)</a>
+        </article>
+
+        <article class="blog-post">
+          <div class="post-date">Sep 01, 2025</div>
+          <h2 class="post-title">Hello World</h2>
+          <p>The obligatory first post that says absolutely nothing.</p>
+          <a href="#" class="read-more">Read (Coming Soon)</a>
+        </article>
+      </div>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
