@@ -34,27 +34,7 @@ const Projects = () => {
         {/* Featured Project */}
         {featuredProject ? (
           <div style={{ marginBottom: 'var(--spacing-xl)' }}>
-            {featuredProject.image && (
-              <div
-                style={{
-                  width: '100%',
-                  height: '500px',
-                  marginBottom: 'var(--spacing-sm)',
-                  overflow: 'hidden',
-                  background: '#111',
-                }}
-              >
-                <img
-                  src={featuredProject.image}
-                  alt={featuredProject.name}
-                  style={{
-                    width: '100%',
-                    height: '100%',
-                    objectFit: 'cover',
-                  }}
-                />
-              </div>
-            )}
+            
 
             <div style={{ maxWidth: '800px' }}>
               <h3
